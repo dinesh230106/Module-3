@@ -23,8 +23,27 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+# Reg.No: 212223060057
+# Name: DINESH KUMAR A
+# Program to perform string slicing and create a new string
+
+# Accept a string input
+string = input("Enter a string: ")
+
+# Slice from index 2 to 10, reverse it, and take alternate characters
+new_string = string[2:10][::-1][::2]
+
+# Display the new string
+print("The new string is:", new_string)
+
 ```
 
 ### OUTPUT
+```
+Enter a string: PythonProgramming
+The new string is: grPh
+
+```
 
 ### RESULT
+Thus, the Python program to perform string slicing and reverse the characters from the 4th to 10th position with alternate characters was successfully executed and verified.
