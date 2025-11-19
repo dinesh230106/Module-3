@@ -28,28 +28,18 @@ To write a Python function that accepts a number **N** and creates a list contai
 # Name: DINESH KUMAR A
 # Program to create a list of even numbers up to N
 
-# Get input from the user
-a = int(input("Enter a number: "))
-
-# Create an empty list
-l = []
-
-# Loop through numbers from 1 to a-1
-for i in range(1, a):
-    if i % 2 == 0:
-        l.append(i)
-
-# Display the list of even numbers
-print("List of even numbers up to", a, "is:", l)
+l=eval(input())
+sum=1
+for i in range(0,len(l)):
+    if l[i]%10==2:
+        sum*=l[i]
+print("Product= {}".format(sum))
 
 ```
 
 ### OUTPUT
-```
-Enter a number: 10
-List of even numbers up to 10 is: [2, 4, 6, 8]
+<img width="842" height="238" alt="image" src="https://github.com/user-attachments/assets/285e62cb-73f8-46af-8500-6e5e7319cff4" />
 
-```
 
 ### RESULT
 Thus, the Python program to create a list of even numbers up to N was successfully executed and verified.
