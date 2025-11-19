@@ -33,11 +33,10 @@ print('12' in t or 12 in t)
 ```
 
 ### OUTPUT
-```
+
 <img width="1028" height="284" alt="image" src="https://github.com/user-attachments/assets/fc2868b5-b469-4861-af0a-41af450acda4" />
 
 
-```
 
 ### RESULT
 Thus, the Python program to create a tuple containing all multiples of 5 up to a given number N was successfully executed and verified.
