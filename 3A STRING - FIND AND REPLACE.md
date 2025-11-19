@@ -26,31 +26,17 @@ To write a Python function to accept a string, identify a word to be replaced, a
 # Name: DINESH KUMAR A
 # Write your code here
 
-# Getting inputs from the user
-str1 = input("Enter the original string: ")
-replace_str = input("Enter the word to be replaced: ")
-str2 = input("Enter the new word: ")
+def string_length(s):
+    print(f"The length of the string '{s}' is {len(s)}")
 
-# Replacing the word
-str3 = str1.replace(replace_str, str2)
-
-# Displaying results
-print("\nOriginal String: ", str1)
-print("Modified String: ", str3)
-
+# Example usage
+string = input()
+string_length(string)
 ```
 
 ### OUTPUT
-```
-Enter the original string: Python is fun to learn
-Enter the word to be replaced: fun
-Enter the new word: easy
+<img width="1068" height="230" alt="image" src="https://github.com/user-attachments/assets/970fb3a2-0371-44dc-a751-78264d67286b" />
 
-Original String:  Python is fun to learn
-Modified String:  Python is easy to learn
-
-
-```
 
 ### RESULT
 Thus, the Python program to find and replace a word in a string using the replace() function was successfully implemented and executed.
